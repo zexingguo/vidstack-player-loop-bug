@@ -73,6 +73,19 @@
   max-width: 800px;
 }
 
+.video {
+  width: 800px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video vds-media, .video vds-video,
+.video vds-hls {
+  width: 100%;
+}
+
 .card {
   margin: 1rem;
   padding: 1.5rem;
